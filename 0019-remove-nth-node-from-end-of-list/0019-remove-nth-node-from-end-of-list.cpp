@@ -23,10 +23,7 @@ public:
         for(int i=0;i<n;i++)
         { 
            // first=first->next;//
-            if(first->next==NULL)
-            {
-                return first;
-            }
+           
              first=first->next;
         }
         ListNode* second=temp1;
