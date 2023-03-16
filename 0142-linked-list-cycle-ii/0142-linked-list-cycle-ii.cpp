@@ -12,7 +12,7 @@ public:
          ListNode *slow=head;
          ListNode *fast=head;
       //  ListNode *pos=new ListNode(-1);//
-        if(head==NULL || head->next==NULL) return NULL;
+       if(head==NULL || head->next==NULL) return NULL;
         
         while(fast!=NULL && fast->next!=NULL)
         {
@@ -28,8 +28,8 @@ public:
             slow=slow->next;
             fast=fast->next;
         }
-        if( fast->next->next==slow)  return slow;
-        else
+       if( fast->next->next==slow)  return slow;
+      else
         return fast->next;
         
     }
