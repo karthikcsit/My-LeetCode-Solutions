@@ -36,7 +36,7 @@ public:
       //  vector<int>& inorder;
         int is=0;
         int ie=inorder.size()-1;
-        int preindex=0;
+        
        TreeNode* curr=   ctree( preorder,  inorder, is, ie);
         return curr;
     }
